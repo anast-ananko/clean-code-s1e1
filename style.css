@@ -49,10 +49,7 @@
   padding: 0px;
 }
 
-.tasks__item {
-  list-style: none;
-}
-
+.tasks__item, 
 .title {
   list-style: none;
 }
@@ -161,15 +158,12 @@
 }
 
 /* Edit Task */
-.tasks__item .input[type=text] {
+.tasks__item .input[type=text],
+.edit-mode .label {
   display: none;
 }
 
 .edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
-}
-
-.edit-mode .label {
-  display: none;
 }
